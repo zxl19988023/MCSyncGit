@@ -24,11 +24,15 @@
       "minecraft:sunflower_plains": "2025-09-24 21:25:39 +0800",
       "minecraft:birch_forest": "2025-09-20 20:47:15 +0800",
       "minecraft:wooded_badlands": "2025-09-28 22:12:09 +0800",
+      "minecraft:bamboo_jungle": "2025-10-01 16:07:42 +0800",
+      "minecraft:warm_ocean": "2025-10-01 16:13:52 +0800",
       "minecraft:badlands": "2025-09-28 22:11:46 +0800",
       "minecraft:flower_forest": "2025-09-30 22:07:17 +0800",
       "minecraft:savanna_plateau": "2025-09-26 22:36:53 +0800",
       "minecraft:beach": "2025-09-20 18:00:59 +0800",
       "minecraft:dark_forest": "2025-09-26 22:27:54 +0800",
+      "minecraft:stony_peaks": "2025-10-01 16:03:36 +0800",
+      "minecraft:sparse_jungle": "2025-10-01 16:06:58 +0800",
       "minecraft:river": "2025-09-20 19:39:54 +0800",
       "minecraft:stony_shore": "2025-09-28 22:12:27 +0800",
       "minecraft:dripstone_caves": "2025-09-27 15:20:02 +0800",
@@ -111,11 +115,15 @@
     "criteria": {
       "minecraft:blaze": "2025-09-27 14:34:11 +0800",
       "minecraft:skeleton": "2025-09-20 18:01:06 +0800",
+      "minecraft:phantom": "2025-10-01 15:58:56 +0800",
       "minecraft:zombified_piglin": "2025-09-27 14:31:52 +0800",
       "minecraft:wither_skeleton": "2025-09-27 14:37:15 +0800",
+      "minecraft:bogged": "2025-10-01 15:42:03 +0800",
+      "minecraft:ghast": "2025-10-01 15:02:02 +0800",
       "minecraft:cave_spider": "2025-09-28 21:27:07 +0800",
       "minecraft:piglin": "2025-09-27 14:44:14 +0800",
       "minecraft:vindicator": "2025-09-26 22:30:19 +0800",
+      "minecraft:breeze": "2025-10-01 15:42:47 +0800",
       "minecraft:enderman": "2025-09-20 21:57:07 +0800",
       "minecraft:spider": "2025-09-24 19:50:14 +0800",
       "minecraft:piglin_brute": "2025-09-27 14:45:04 +0800",
@@ -733,12 +741,14 @@
       "cooked_porkchop": "2025-09-20 21:34:14 +0800",
       "apple": "2025-09-24 20:32:15 +0800",
       "bread": "2025-09-26 21:15:32 +0800",
+      "cooked_chicken": "2025-10-01 16:04:58 +0800",
       "rotten_flesh": "2025-09-20 21:23:43 +0800",
       "cooked_mutton": "2025-09-20 23:31:33 +0800",
       "cooked_cod": "2025-09-20 23:08:44 +0800",
       "sweet_berries": "2025-09-20 21:04:58 +0800",
       "cooked_beef": "2025-09-20 21:10:24 +0800",
-      "melon_slice": "2025-09-26 21:15:51 +0800"
+      "melon_slice": "2025-09-26 21:15:51 +0800",
+      "carrot": "2025-10-01 16:07:20 +0800"
     },
     "done": false
   },
@@ -3182,45 +3192,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-09-30 22:42:15 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2025-09-30 22:03:38 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2025-09-30 22:40:00 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-09-30 22:08:58 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-09-30 22:40:00 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2025-09-30 22:03:38 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-09-30 22:40:00 +0800"
     },
     "done": true
   },
@@ -3242,12 +3222,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-09-30 22:42:15 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/tuff_brick_wall": {
     "criteria": {
       "has_tuff_bricks": "2025-09-30 22:03:38 +0800"
@@ -3257,6 +3231,96 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab": {
     "criteria": {
       "has_tuff_bricks": "2025-09-30 22:03:38 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-09-30 22:08:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-09-30 22:40:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-09-30 22:40:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-09-30 22:40:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-09-30 22:42:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-09-30 22:42:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-10-01 15:41:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-10-01 14:51:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-10-01 15:42:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-10-01 16:06:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-10-01 16:10:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-10-01 16:06:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-10-01 15:42:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-10-01 14:51:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-10-01 14:51:13 +0800"
     },
     "done": true
   },

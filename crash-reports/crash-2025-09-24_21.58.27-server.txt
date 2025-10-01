@@ -1,0 +1,498 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2025-09-24 21:58:28
+Description: Watching Server
+
+java.lang.Error: ServerWatchdog detected that a single server tick took 60.42 seconds (should be max 0.05)
+	at java.base/java.lang.Class.initClassName(Native Method) ~[?:?] {}
+	at java.base/java.lang.Class.getName(Class.java:948) ~[?:?] {}
+	at java.base/java.lang.Class.getPackageName(Class.java:1167) ~[?:?] {}
+	at java.base/sun.invoke.util.VerifyAccess.isSamePackage(VerifyAccess.java:378) ~[?:?] {}
+	at java.base/sun.invoke.util.VerifyAccess.isClassAccessible(VerifyAccess.java:195) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.isClassAccessible(MethodHandles.java:3798) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:3786) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3747) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2837) ~[?:?] {}
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaForm$DMH/0x00007f9d60021800.invokeStatic(LambdaForm$DMH) ~[?:?] {}
+	at java.base/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder) ~[?:?] {}
+	at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?] {}
+	at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.util.AirRandomPos.getPosTowards(AirRandomPos.java:13) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.pathfindRandomlyTowards(Bee.java:299) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal.tick(Bee.java:851) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:106) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:97) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.serverAiStep(Mob.java:677) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2878) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.aiStep(Mob.java:458) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:131) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:66) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.aiStep(Bee.java:476) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2658) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.tick(Mob.java:328) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.tick(Bee.java:254) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:778) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61216f38.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61206540.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1083) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer$$Lambda/0x00007f9d61060c48.run(Unknown Source) ~[?:?] {}
+	at java.base/java.lang.Thread.runWith(Thread.java:1596) [?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base/java.lang.Class.initClassName(Native Method) ~[?:?] {}
+	at java.base/java.lang.Class.getName(Class.java:948) ~[?:?] {}
+	at java.base/java.lang.Class.getPackageName(Class.java:1167) ~[?:?] {}
+	at java.base/sun.invoke.util.VerifyAccess.isSamePackage(VerifyAccess.java:378) ~[?:?] {}
+	at java.base/sun.invoke.util.VerifyAccess.isClassAccessible(VerifyAccess.java:195) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.isClassAccessible(MethodHandles.java:3798) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:3786) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3747) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2837) ~[?:?] {}
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?] {}
+	at java.base/java.lang.invoke.LambdaForm$DMH/0x00007f9d60021800.invokeStatic(LambdaForm$DMH) ~[?:?] {}
+	at java.base/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder) ~[?:?] {}
+	at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?] {}
+	at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?] {}
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.util.AirRandomPos.getPosTowards(AirRandomPos.java:13) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.pathfindRandomlyTowards(Bee.java:299) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal.tick(Bee.java:851) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:106) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:97) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.serverAiStep(Mob.java:677) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2878) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.aiStep(Mob.java:458) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:131) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:66) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.aiStep(Bee.java:476) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2658) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.tick(Mob.java:328) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.tick(Bee.java:254) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:778) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61216f38.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61206540.accept(Unknown Source) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1083) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap,pl:mixin:A}
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=4 RUNNABLE
+	at java.base@21.0.8/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.8/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.8/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+
+"Finalizer" daemon prio=8 Id=5 WAITING on java.lang.ref.NativeReferenceQueue$Lock@1681b1a6
+	at java.base@21.0.8/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@1681b1a6
+	at java.base@21.0.8/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.8/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.8/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.8/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.8/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+
+"Signal Dispatcher" daemon prio=9 Id=6 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=11 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=12 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@74a7df32
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@74a7df32
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.8/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+	at java.base@21.0.8/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+
+"JNA Cleaner" daemon prio=5 Id=21 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3db0ff66
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3db0ff66
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at MC-BOOTSTRAP/com.sun.jna@5.15.0/com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+
+"Timer hack thread" daemon prio=5 Id=22 TIMED_WAITING
+	at java.base@21.0.8/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.8/java.lang.Thread.sleep(Thread.java:509)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.Util$7.run(Util.java:884)
+
+
+"modloading-sync-worker" daemon prio=5 Id=25 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2acb8c5b
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2acb8c5b
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	at java.base@21.0.8/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"FileSystemWatchService" daemon prio=5 Id=26 RUNNABLE (in native)
+	at java.base@21.0.8/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@21.0.8/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:307)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"config-file-watcher-0-0" daemon prio=5 Id=27 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41a91f41
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41a91f41
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.8/java.util.concurrent.LinkedBlockingDeque.pollFirst(LinkedBlockingDeque.java:515)
+	at java.base@21.0.8/java.util.concurrent.LinkedBlockingDeque.poll(LinkedBlockingDeque.java:677)
+	at java.base@21.0.8/sun.nio.fs.AbstractWatchService.poll(AbstractWatchService.java:108)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.3/com.electronwill.nightconfig.core.file.FileWatcher$FsWatcher.run(FileWatcher.java:531)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=30 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@b3d0609
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@b3d0609
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.8/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+	at java.base@21.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.8/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Worker-Main-1" daemon prio=5 Id=33 TIMED_WAITING on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Server thread" prio=5 Id=34 RUNNABLE
+	at java.base@21.0.8/java.lang.Class.initClassName(Native Method)
+	at java.base@21.0.8/java.lang.Class.getName(Class.java:948)
+	at java.base@21.0.8/java.lang.Class.getPackageName(Class.java:1167)
+	at java.base@21.0.8/sun.invoke.util.VerifyAccess.isSamePackage(VerifyAccess.java:378)
+	at java.base@21.0.8/sun.invoke.util.VerifyAccess.isClassAccessible(VerifyAccess.java:195)
+	at java.base@21.0.8/java.lang.invoke.MethodHandles$Lookup.isClassAccessible(MethodHandles.java:3798)
+	at java.base@21.0.8/java.lang.invoke.MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:3786)
+	at java.base@21.0.8/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3747)
+	at java.base@21.0.8/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2837)
+	at java.base@21.0.8/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232)
+	at java.base@21.0.8/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+	at java.base@21.0.8/java.lang.invoke.LambdaForm$DMH/0x00007f9d60021800.invokeStatic(LambdaForm$DMH)
+	at java.base@21.0.8/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@21.0.8/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+	at java.base@21.0.8/java.lang.invoke.CallSite.makeSite(CallSite.java:316)
+	at java.base@21.0.8/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274)
+	at java.base@21.0.8/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.util.AirRandomPos.getPosTowards(AirRandomPos.java:13)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.pathfindRandomlyTowards(Bee.java:299)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal.tick(Bee.java:851)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.WrappedGoal.tick(WrappedGoal.java:63)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tickRunningGoals(GoalSelector.java:106)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:97)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.serverAiStep(Mob.java:677)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2878)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.aiStep(Mob.java:458)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:131)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:66)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.aiStep(Bee.java:476)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2658)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.tick(Mob.java:328)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.animal.Bee.tick(Bee.java:254)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:778)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61216f38.accept(Unknown Source)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel$$Lambda/0x00007f9d61206540.accept(Unknown Source)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1083)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer$$Lambda/0x00007f9d61060c48.run(Unknown Source)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"DestroyJavaVM" prio=5 Id=36 RUNNABLE
+
+
+"Server console handler" daemon prio=5 Id=37 RUNNABLE
+	at java.base@21.0.8/java.io.FileInputStream.read0(Native Method)
+	at java.base@21.0.8/java.io.FileInputStream.read(FileInputStream.java:231)
+	at MC-BOOTSTRAP/org.jline.terminal@3.20.0/org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+	at MC-BOOTSTRAP/org.jline.terminal@3.20.0/org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+	at MC-BOOTSTRAP/org.jline.terminal@3.20.0/org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+	at MC-BOOTSTRAP/org.jline.terminal@3.20.0/org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+	at MC-BOOTSTRAP/org.jline.reader@3.20.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+	at TRANSFORMER/neoforge@21.8.47/net.neoforged.neoforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:39)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:107)
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=38 RUNNABLE
+	at MC-BOOTSTRAP/io.netty.transport@4.1.118.Final/io.netty.channel.RecvByteBufAllocator$DelegatingHandle.lastBytesRead(RecvByteBufAllocator.java:159)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:112)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=39 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native.java:220)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native.java:213)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=41 RUNNABLE
+	at java.base@21.0.8/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@21.0.8/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:208)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:310)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader$$Lambda/0x00007f9d6002f840.apply(Unknown Source)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:323)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:310)
+	at app/cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:226)
+	-  locked java.lang.Object@471368f1
+	at java.base@21.0.8/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollChannel.isAllowHalfClosure(AbstractEpollChannel.java:243)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollChannel.access$000(AbstractEpollChannel.java:59)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.shutdownInput(AbstractEpollChannel.java:507)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:822)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollRdHupReady(AbstractEpollChannel.java:480)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:508)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Server Watchdog" daemon prio=5 Id=48 RUNNABLE
+	at java.management@21.0.8/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.8/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.8/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.dedicated.ServerWatchdog.createWatchdogCrashReport(ServerWatchdog.java:91)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:55)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=49 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native.java:220)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.Native.epollWait(Native.java:213)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.118.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at MC-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+"Worker-Main-2" daemon prio=5 Id=133 WAITING on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1893)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"Worker-Main-3" daemon prio=5 Id=134 TIMED_WAITING on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@31cc93c7
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+	at java.base@21.0.8/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+
+"IO-Worker-100" prio=5 Id=150 RUNNABLE
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.unpark(Native Method)
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.unpark(LockSupport.java:181)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:182)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue.offer(SynchronousQueue.java:304)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1368)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.TracingExecutor.execute(TracingExecutor.java:34)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.util.thread.AbstractConsecutiveExecutor.registerForExecution(AbstractConsecutiveExecutor.java:82)
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.util.thread.AbstractConsecutiveExecutor.run(AbstractConsecutiveExecutor.java:59)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@59a538fd
+
+
+"IO-Worker-112" prio=5 Id=162 TIMED_WAITING on java.util.concurrent.SynchronousQueue$Transferer@2d276ecb
+	at java.base@21.0.8/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$Transferer@2d276ecb
+	at java.base@21.0.8/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:410)
+	at java.base@21.0.8/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235)
+	at java.base@21.0.8/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base@21.0.8/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.8/java.lang.Thread.run(Thread.java:1583)
+
+
+
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.dedicated.ServerWatchdog.createWatchdogCrashReport(ServerWatchdog.java:105) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:55) ~[server-1.21.8-20250717.133445-srg.jar%23151!/:?] {re:classloading}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: minecraft:overworld: players: 0, entities: 4,4,4,49,49,0,0 [minecraft:wolf:1,minecraft:pig:1,minecraft:chicken:1,minecraft:turtle:1], block_entities: 193 [minecraft:vault:58,minecraft:mob_spawner:45,minecraft:trial_spawner:43,minecraft:hopper:17,minecraft:beehive:16], block_ticks: 1814, fluid_ticks: 85, chunk_source: Chunks[S] W: 841 E: 4,4,4,49,49,0,0,
+minecraft:the_end: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+minecraft:the_nether: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Linux (amd64) version 5.15.0-152-generic
+	Java Version: 21.0.8, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 214426832 bytes (204 MiB) / 957239296 bytes (912 MiB) up to 1520435200 bytes (1450 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum
+	Identifier: Intel64 Family 6 Model 85 Stepping 4
+	Microarchitecture: Skylake (Server)
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MiB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 2048.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MiB): 804.45
+	Virtual memory used (MiB): 1579.33
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 30266.93, total: 39942.69
+	Space in storage for workdir (MiB): available: 30266.91, total: 39942.69
+	JVM Flags: 2 total; -Xmx1500M -Xms256M
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, mod_data, mod/sodium, mod/iris, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/mousetweaks (incompatible), mod/stackrefill, mod/xaerominimap (incompatible), mod/collective, mod/xaeroworldmap (incompatible), mod/neoforge, mod/jei (incompatible)
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/collective, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/iris, mod/jei (incompatible), mod/mousetweaks (incompatible), mod/neoforge, mod/sodium, mod/stackrefill, mod/xaerominimap (incompatible), mod/xaeroworldmap (incompatible), mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 1740822705558702909
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 9.0
+	ModLauncher launch target: neoforgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-9.0.18.jar neoforgedevdistcleaner PLUGINSERVICE 
+		loader-9.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-9.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		loader-9.0.18.jar accesstransformer PLUGINSERVICE 
+		loader-9.0.18.jar mixin TRANSFORMATIONSERVICE 
+		loader-9.0.18.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@9.0
+		minecraft@9.0
+	Mod List: 
+		collective-1.21.8-8.4.jar                         |Collective                    |collective                    |8.4                 |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-7.0.0.jar                  |Fabric Renderer API (CaffeineM|fabric_renderer_api_v1        |7.0.0               |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		iris-neoforge-1.9.1+mc1.21.7.jar                  |Iris                          |iris                          |1.9.1+mc1.21.7      |Manifest: NOSIGNATURE
+		jei-1.21.8-neoforge-24.1.0.4.jar                  |Just Enough Items             |jei                           |24.1.0.4            |Manifest: NOSIGNATURE
+		server-1.21.8-20250717.133445-srg.jar             |Minecraft                     |minecraft                     |1.21.8              |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21.6-2.28.jar            |Mouse Tweaks                  |mousetweaks                   |2.28                |Manifest: NOSIGNATURE
+		neoforge-21.8.47-universal.jar                    |NeoForge                      |neoforge                      |21.8.47             |Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.13+mc1.21.6.jar               |Sodium                        |sodium                        |0.6.13+mc1.21.6     |Manifest: NOSIGNATURE
+		stackrefill-1.21.8-4.9.jar                        |Stack Refill                  |stackrefill                   |4.9                 |Manifest: NOSIGNATURE
+		Xaeros_Minimap_25.2.12_NeoForge_1.21.8.jar        |Xaero's Minimap               |xaerominimap                  |25.2.12             |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.14_NeoForge_1.21.8.jar        |Xaero's World Map             |xaeroworldmap                 |1.39.14             |Manifest: NOSIGNATURE
+	Crash Report UUID: 31290efd-557d-4736-8fa8-31cc5dd98351
+	FML: 9.0.18
+	NeoForge: 21.8.47

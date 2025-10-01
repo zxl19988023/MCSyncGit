@@ -1,0 +1,1211 @@
+[30Sep2025 23:37:42.558] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[30Sep2025 23:37:42.559] [main/DEBUG] [mixin/]: Selecting config sodium-common.mixins.json
+[30Sep2025 23:37:42.569] [main/DEBUG] [Sodium/]: Loaded net.caffeinemc.mods.sodium.neoforge.ForgeMixinOverrides@24e08d59 for service interface net.caffeinemc.mods.sodium.client.services.PlatformMixinOverrides
+[30Sep2025 23:37:42.573] [main/DEBUG] [Sodium/]: Loaded net.caffeinemc.mods.sodium.neoforge.NeoForgeRuntimeInformation@10667848 for service interface net.caffeinemc.mods.sodium.client.services.PlatformRuntimeInformation
+[30Sep2025 23:37:42.573] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[30Sep2025 23:37:42.575] [main/DEBUG] [mixin/]: Selecting config sodium-neoforge.mixins.json
+[30Sep2025 23:37:42.576] [main/DEBUG] [mixin/]: Selecting config mixins.iris.json
+[30Sep2025 23:37:42.577] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.577] [main/DEBUG] [mixin/]: Selecting config mixins.iris.fantastic.json
+[30Sep2025 23:37:42.577] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.578] [main/DEBUG] [mixin/]: Selecting config mixins.iris.vertexformat.json
+[30Sep2025 23:37:42.578] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.578] [main/DEBUG] [mixin/]: Selecting config iris-batched-entity-rendering.mixins.json
+[30Sep2025 23:37:42.578] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.579] [main/DEBUG] [mixin/]: Selecting config mixins.iris.compat.sodium.json
+[30Sep2025 23:37:42.579] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.579] [main/DEBUG] [mixin/]: Selecting config mixins.iris.compat.dh.json
+[30Sep2025 23:37:42.580] [main/DEBUG] [mixin/]: Selecting config mixins.iris.forge.json
+[30Sep2025 23:37:42.581] [main/DEBUG] [mixin/]: Selecting config fabric-renderer-api-v1.debughud.mixins.json
+[30Sep2025 23:37:42.581] [main/DEBUG] [mixin/]: Selecting config fabric-renderer-api-v1.mixins.json
+[30Sep2025 23:37:42.581] [main/DEBUG] [mixin/]: Selecting config mousetweaks.mixins.json
+[30Sep2025 23:37:42.581] [main/DEBUG] [mixin/]: Selecting config stackrefill_neoforge.mixins.json
+[30Sep2025 23:37:42.583] [main/DEBUG] [mixin/]: Selecting config xaerohud.mixins.json
+[30Sep2025 23:37:42.584] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.584] [main/DEBUG] [mixin/]: Selecting config xaerohud.neoforge.mixins.json
+[30Sep2025 23:37:42.585] [main/DEBUG] [mixin/]: Selecting config xaerominimap.mixins.json
+[30Sep2025 23:37:42.585] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.585] [main/DEBUG] [mixin/]: Selecting config xaerominimap.neoforge.mixins.json
+[30Sep2025 23:37:42.586] [main/DEBUG] [mixin/]: Selecting config collective_neoforge.mixins.json
+[30Sep2025 23:37:42.586] [main/DEBUG] [mixin/]: Selecting config xaeroworldmap.mixins.json
+[30Sep2025 23:37:42.587] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Sep2025 23:37:42.587] [main/DEBUG] [mixin/]: Selecting config xaeroworldmap.neoforge.mixins.json
+[30Sep2025 23:37:42.587] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[30Sep2025 23:37:42.588] [main/DEBUG] [mixin/]: Selecting config stackrefill_forge.mixins.json
+[30Sep2025 23:37:42.589] [main/DEBUG] [mixin/]: Selecting config collective_forge.mixins.json
+[30Sep2025 23:37:42.589] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[30Sep2025 23:37:42.631] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[30Sep2025 23:37:42.653] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[30Sep2025 23:37:42.654] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[30Sep2025 23:37:42.655] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[30Sep2025 23:37:42.656] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[30Sep2025 23:37:42.656] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[30Sep2025 23:37:42.657] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[30Sep2025 23:37:42.668] [main/DEBUG] [mixin/]: Preparing sodium-common.mixins.json (87)
+[30Sep2025 23:37:42.669] [main/DEBUG] [mixin/]: Preparing sodium-neoforge.mixins.json (11)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.json (107)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.fantastic.json (3)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.vertexformat.json (8)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing iris-batched-entity-rendering.mixins.json (16)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.compat.sodium.json (21)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.compat.dh.json (4)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mixins.iris.forge.json (12)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing fabric-renderer-api-v1.debughud.mixins.json (1)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing fabric-renderer-api-v1.mixins.json (26)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing mousetweaks.mixins.json (1)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing stackrefill_neoforge.mixins.json (0)
+[30Sep2025 23:37:42.670] [main/DEBUG] [mixin/]: Preparing xaerohud.mixins.json (24)
+[30Sep2025 23:37:42.765] [main/DEBUG] [mixin/]: Preparing xaerohud.neoforge.mixins.json (2)
+[30Sep2025 23:37:42.765] [main/DEBUG] [mixin/]: Preparing xaerominimap.mixins.json (0)
+[30Sep2025 23:37:42.766] [main/DEBUG] [mixin/]: Preparing xaerominimap.neoforge.mixins.json (0)
+[30Sep2025 23:37:42.766] [main/DEBUG] [mixin/]: Preparing collective_neoforge.mixins.json (8)
+[30Sep2025 23:37:42.774] [main/DEBUG] [mixin/]: Preparing xaeroworldmap.mixins.json (17)
+[30Sep2025 23:37:42.775] [main/DEBUG] [mixin/]: Preparing xaeroworldmap.neoforge.mixins.json (2)
+[30Sep2025 23:37:42.775] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[30Sep2025 23:37:42.782] [main/DEBUG] [mixin/]: Preparing stackrefill_forge.mixins.json (0)
+[30Sep2025 23:37:42.783] [main/DEBUG] [mixin/]: Preparing collective_forge.mixins.json (7)
+[30Sep2025 23:37:42.785] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[30Sep2025 23:37:42.808] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[30Sep2025 23:37:42.809] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[30Sep2025 23:37:42.809] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[30Sep2025 23:37:42.961] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5942ee04
+[30Sep2025 23:37:42.961] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@3941a79c
+[30Sep2025 23:37:43.012] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[30Sep2025 23:37:43.013] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[30Sep2025 23:37:43.016] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[30Sep2025 23:37:43.021] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[30Sep2025 23:37:43.021] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[30Sep2025 23:37:43.021] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[30Sep2025 23:37:43.021] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[30Sep2025 23:37:43.021] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[30Sep2025 23:37:43.022] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[30Sep2025 23:37:43.023] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[30Sep2025 23:37:43.025] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[30Sep2025 23:37:43.025] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[30Sep2025 23:37:43.026] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.027] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.027] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.027] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.027] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[30Sep2025 23:37:43.027] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[30Sep2025 23:37:43.028] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.029] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.030] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.031] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.032] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.033] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.033] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[30Sep2025 23:37:43.033] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[30Sep2025 23:37:43.034] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[30Sep2025 23:37:43.034] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[30Sep2025 23:37:43.034] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[30Sep2025 23:37:43.034] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[30Sep2025 23:37:43.035] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.036] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.037] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[30Sep2025 23:37:43.037] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[30Sep2025 23:37:43.037] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[30Sep2025 23:37:43.037] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[30Sep2025 23:37:43.037] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[30Sep2025 23:37:43.038] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[30Sep2025 23:37:43.039] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[30Sep2025 23:37:43.040] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[30Sep2025 23:37:43.040] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/topology/core_id
+[30Sep2025 23:37:43.041] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[30Sep2025 23:37:43.042] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/topology/physical_package_id
+[30Sep2025 23:37:43.043] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cpu_capacity
+[30Sep2025 23:37:43.043] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/level
+[30Sep2025 23:37:43.043] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/level
+[30Sep2025 23:37:43.043] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/type
+[30Sep2025 23:37:43.044] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/type
+[30Sep2025 23:37:43.044] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.044] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.044] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.044] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/size
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index2/size
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/level
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/level
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/type
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/type
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.045] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/size
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index0/size
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/level
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/level
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/type
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/type
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/size
+[30Sep2025 23:37:43.046] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index3/size
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/level
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/level
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/type
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/type
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/size
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu10/cache/index1/size
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[30Sep2025 23:37:43.047] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/topology/core_id
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/topology/physical_package_id
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cpu_capacity
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/level
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/level
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/type
+[30Sep2025 23:37:43.048] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/type
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/size
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index2/size
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/level
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/level
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/type
+[30Sep2025 23:37:43.049] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/type
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/size
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index0/size
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/level
+[30Sep2025 23:37:43.050] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/level
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/type
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/type
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/size
+[30Sep2025 23:37:43.051] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index3/size
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/level
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/level
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/type
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/type
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/size
+[30Sep2025 23:37:43.052] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu11/cache/index1/size
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/topology/core_id
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/topology/core_id
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/topology/physical_package_id
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/topology/physical_package_id
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cpu_capacity
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/level
+[30Sep2025 23:37:43.054] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/level
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/type
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/type
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/size
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index2/size
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/level
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/level
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/type
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/type
+[30Sep2025 23:37:43.055] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index0/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/level
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/level
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/type
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/type
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index3/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/level
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/level
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/type
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/type
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu12/cache/index1/size
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/topology/core_id
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/topology/core_id
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/topology/physical_package_id
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/topology/physical_package_id
+[30Sep2025 23:37:43.056] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cpu_capacity
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/level
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/level
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/type
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/type
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/size
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index2/size
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/level
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/level
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/type
+[30Sep2025 23:37:43.057] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/type
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/size
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index0/size
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/level
+[30Sep2025 23:37:43.058] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/level
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/type
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/type
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index3/size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/level
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/level
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/type
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/type
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu13/cache/index1/size
+[30Sep2025 23:37:43.059] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/topology/core_id
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/topology/core_id
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/topology/physical_package_id
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/topology/physical_package_id
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cpu_capacity
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/level
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/level
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/type
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/type
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index2/size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/level
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/level
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/type
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/type
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.060] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index0/size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/level
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/level
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/type
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/type
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index3/size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/level
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/level
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/type
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/type
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/size
+[30Sep2025 23:37:43.061] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu14/cache/index1/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/topology/core_id
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/topology/core_id
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/topology/physical_package_id
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/topology/physical_package_id
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cpu_capacity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index2/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index0/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index3/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/level
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/type
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/size
+[30Sep2025 23:37:43.062] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu15/cache/index1/size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[30Sep2025 23:37:43.063] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.064] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[30Sep2025 23:37:43.065] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/core_id
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/topology/physical_package_id
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cpu_capacity
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/level
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/level
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/type
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/type
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index2/size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/level
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/level
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/type
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/type
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index0/size
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/level
+[30Sep2025 23:37:43.066] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index3/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu4/cache/index1/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/core_id
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/topology/physical_package_id
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cpu_capacity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/type
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index2/size
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/level
+[30Sep2025 23:37:43.067] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index0/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/level
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/level
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index3/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/level
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/level
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/type
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu5/cache/index1/size
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/core_id
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/topology/physical_package_id
+[30Sep2025 23:37:43.068] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cpu_capacity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index2/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index0/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index3/size
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/level
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/type
+[30Sep2025 23:37:43.069] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu6/cache/index1/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/core_id
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/topology/physical_package_id
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cpu_capacity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index2/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index0/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index3/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/level
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/type
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/size
+[30Sep2025 23:37:43.070] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu7/cache/index1/size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/topology/core_id
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/topology/physical_package_id
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cpu_capacity
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/type
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/type
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index2/size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/type
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/type
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index0/size
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/level
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/type
+[30Sep2025 23:37:43.071] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index3/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu8/cache/index1/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/topology/core_id
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/topology/physical_package_id
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cpu_capacity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/ways_of_associativity
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/coherency_line_size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index2/size
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/level
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/type
+[30Sep2025 23:37:43.072] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index0/size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/level
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/level
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/type
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/type
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index3/size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/level
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/level
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/type
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/type
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/ways_of_associativity
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/coherency_line_size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/size
+[30Sep2025 23:37:43.073] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu9/cache/index1/size
+[30Sep2025 23:37:43.075] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[30Sep2025 23:37:43.076] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[30Sep2025 23:37:43.289] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[30Sep2025 23:37:43.290] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5942ee04
+[30Sep2025 23:37:43.290] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@3941a79c
+[30Sep2025 23:37:43.421] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[30Sep2025 23:37:43.422] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[30Sep2025 23:37:43.466] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[30Sep2025 23:37:43.467] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[30Sep2025 23:37:43.467] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[30Sep2025 23:37:43.467] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[30Sep2025 23:37:43.479] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[30Sep2025 23:37:43.952] [main/DEBUG] [mixin/]: Mixing BlockEntityMixin from collective_neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntity
+[30Sep2025 23:37:43.996] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setLevel(Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:43.996] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setLevel(Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:43.996] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setLevel(Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:43.997] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setRemoved(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:43.997] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setRemoved(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:43.997] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BlockEntityMixin from mod collective->@Inject::setRemoved(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:44.237] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[30Sep2025 23:37:44.857] [main/DEBUG] [mixin/]: Mixing MixinServerPlayer from xaerohud.mixins.json into net.minecraft.server.level.ServerPlayer
+[30Sep2025 23:37:44.875] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinServerPlayer from mod xaerominimap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:44.880] [main/DEBUG] [mixin/]: Mixing MixinServerPlayer from xaeroworldmap.mixins.json into net.minecraft.server.level.ServerPlayer
+[30Sep2025 23:37:44.880] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinServerPlayer from mod xaeroworldmap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:45.302] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[30Sep2025 23:37:45.302] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[30Sep2025 23:37:45.303] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[30Sep2025 23:37:45.303] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[30Sep2025 23:37:45.303] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[30Sep2025 23:37:45.303] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[30Sep2025 23:37:45.304] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[30Sep2025 23:37:45.305] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[30Sep2025 23:37:45.305] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[30Sep2025 23:37:45.305] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[30Sep2025 23:37:45.305] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[30Sep2025 23:37:45.306] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[30Sep2025 23:37:45.306] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[30Sep2025 23:37:45.306] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[30Sep2025 23:37:45.306] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[30Sep2025 23:37:46.176] [main/DEBUG] [mixin/]: Mixing BaseSpawnerMixin from collective_neoforge.mixins.json into net.minecraft.world.level.BaseSpawner
+[30Sep2025 23:37:46.186] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BaseSpawnerMixin from mod collective->@Inject::BaseSpawner_serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ZLnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/SpawnData;ILnet/minecraft/util/ProblemReporter$ScopedCollector;Lnet/minecraft/world/level/storage/ValueInput;Ljava/util/Optional;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:46.186] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BaseSpawnerMixin from mod collective->@Inject::BaseSpawner_serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ZLnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/SpawnData;ILnet/minecraft/util/ProblemReporter$ScopedCollector;Lnet/minecraft/world/level/storage/ValueInput;Ljava/util/Optional;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V has 0 override(s) in child classes
+[30Sep2025 23:37:46.186] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BaseSpawnerMixin from mod collective->@Inject::BaseSpawner_serverTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;ZLnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/SpawnData;ILnet/minecraft/util/ProblemReporter$ScopedCollector;Lnet/minecraft/world/level/storage/ValueInput;Ljava/util/Optional;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:46.290] [main/DEBUG] [mixin/]: Mixing BoneMealItemMixin from collective_neoforge.mixins.json into net.minecraft.world.item.BoneMealItem
+[30Sep2025 23:37:46.298] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BoneMealItemMixin from mod collective->@Inject::BoneMealItem_useOn(Lnet/minecraft/world/item/context/UseOnContext;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[30Sep2025 23:37:46.298] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:BoneMealItemMixin from mod collective->@Inject::growCrop(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[30Sep2025 23:37:47.062] [main/DEBUG] [mixin/]: Mixing MixinMinecraftServer from xaerohud.mixins.json into net.minecraft.server.MinecraftServer
+[30Sep2025 23:37:47.063] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:47.063] [main/DEBUG] [mixin/]: Mixing MixinMinecraftServer from xaeroworldmap.mixins.json into net.minecraft.server.MinecraftServer
+[30Sep2025 23:37:47.063] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinMinecraftServer from mod xaeroworldmap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:47.190] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[30Sep2025 23:37:47.197] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for []
+[30Sep2025 23:37:47.199] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for []
+[30Sep2025 23:37:47.199] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for []
+[30Sep2025 23:37:47.200] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [org.sinytra.fabric.api_base.generated.GeneratedEntryPoint]
+[30Sep2025 23:37:47.200] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [yalter.mousetweaks.neoforge.MouseTweaksNeo]
+[30Sep2025 23:37:47.201] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.natamus.stackrefill.ModNeoForge]
+[30Sep2025 23:37:47.201] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [xaero.minimap.XaeroMinimapNeoForge]
+[30Sep2025 23:37:47.203] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.natamus.collective.CollectiveNeoForge]
+[30Sep2025 23:37:47.203] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [xaero.map.WorldMapNeoForge]
+[30Sep2025 23:37:47.204] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.common.NeoForgeMod]
+[30Sep2025 23:37:47.207] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [mezz.jei.neoforge.JustEnoughItems]
+[30Sep2025 23:37:47.209] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for sodium
+[30Sep2025 23:37:47.209] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for iris
+[30Sep2025 23:37:47.209] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fabric_renderer_api_v1
+[30Sep2025 23:37:47.210] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fabric_api_base
+[30Sep2025 23:37:47.210] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for mousetweaks
+[30Sep2025 23:37:47.214] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.4.
+[30Sep2025 23:37:47.220] [modloading-worker-0/DEBUG] [xaero.map.WorldMap/]: Loaded xaero.map.platform.services.NeoForgePlatformHelper@369316be for service interface xaero.map.platform.services.IPlatformHelper
+[30Sep2025 23:37:47.222] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for stackrefill
+[30Sep2025 23:37:47.222] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[30Sep2025 23:37:47.224] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.8.47
+[30Sep2025 23:37:47.224] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 9.0.18
+[30Sep2025 23:37:47.224] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.47, for MC 1.21.8
+[30Sep2025 23:37:47.226] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[30Sep2025 23:37:47.226] [modloading-worker-0/DEBUG] [xaero.hud.minimap.MinimapLogs/]: Loaded xaero.common.platform.services.NeoForgePlatformHelper@5e9dc69a for service interface xaero.common.platform.services.IPlatformHelper
+[30Sep2025 23:37:47.231] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[30Sep2025 23:37:47.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for xaeroworldmap
+[30Sep2025 23:37:47.233] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for xaerominimap
+[30Sep2025 23:37:47.234] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[30Sep2025 23:37:47.236] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for collective
+[30Sep2025 23:37:47.236] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.246] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onWorldLoad(net.neoforged.neoforge.event.level.LevelEvent$Load) to the game event bus
+[30Sep2025 23:37:47.247] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onWorldTick(net.neoforged.neoforge.event.tick.LevelTickEvent$Post) to the game event bus
+[30Sep2025 23:37:47.247] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onEntityJoinLevel(net.neoforged.neoforge.event.entity.EntityJoinLevelEvent) to the game event bus
+[30Sep2025 23:37:47.248] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onBlockBreak(net.neoforged.neoforge.event.level.BlockEvent$BreakEvent) to the game event bus
+[30Sep2025 23:37:47.248] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onServerStarted(net.neoforged.neoforge.event.server.ServerAboutToStartEvent) to the game event bus
+[30Sep2025 23:37:47.248] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.registerCommands(net.neoforged.neoforge.event.RegisterCommandsEvent) to the game event bus
+[30Sep2025 23:37:47.248] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.natamus.collective.neoforge.events.RegisterCollectiveNeoForgeEvents.onServerTick(net.neoforged.neoforge.event.tick.ServerTickEvent$Post) to the game event bus
+[30Sep2025 23:37:47.272] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[30Sep2025 23:37:47.273] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.291] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[30Sep2025 23:37:47.291] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[30Sep2025 23:37:47.291] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2ba73ebd
+[30Sep2025 23:37:47.296] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[30Sep2025 23:37:47.296] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[30Sep2025 23:37:47.297] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[30Sep2025 23:37:47.302] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[30Sep2025 23:37:47.303] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[30Sep2025 23:37:47.303] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[30Sep2025 23:37:47.308] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[30Sep2025 23:37:47.308] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.309] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[30Sep2025 23:37:47.309] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.311] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[30Sep2025 23:37:47.312] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.312] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[30Sep2025 23:37:47.312] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.315] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[30Sep2025 23:37:47.316] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[30Sep2025 23:37:47.316] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[30Sep2025 23:37:47.317] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[30Sep2025 23:37:47.483] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[30Sep2025 23:37:47.489] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[30Sep2025 23:37:47.489] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/neoforge-common.toml
+[30Sep2025 23:37:47.494] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/neoforge-common.toml for changes
+[30Sep2025 23:37:47.501] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[30Sep2025 23:37:47.502] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 477.6 μs
+[30Sep2025 23:37:47.504] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Sep2025 23:37:47.504] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[30Sep2025 23:37:47.505] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Sided setup: 2 jobs
+[30Sep2025 23:37:47.505] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[30Sep2025 23:37:47.506] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Sep2025 23:37:47.506] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.035 ms
+[30Sep2025 23:37:47.591] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[30Sep2025 23:37:47.679] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zhongxiaoliang/czq_server/neoforge/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[30Sep2025 23:37:47.680] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zhongxiaoliang/czq_server/neoforge/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[30Sep2025 23:37:48.350] [main/DEBUG] [mixin/]: Mixing PrimaryLevelDataMixin from collective_neoforge.mixins.json into net.minecraft.world.level.storage.PrimaryLevelData
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::PrimaryLevelData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::withConfirmedWarning(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::withConfirmedWarning(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::withConfirmedWarning(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[30Sep2025 23:37:48.357] [main/DEBUG] [mixin/]: collective_neoforge.mixins.json:PrimaryLevelDataMixin from mod collective->@Inject::hasConfirmedExperimentalWarning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[30Sep2025 23:37:48.951] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[30Sep2025 23:37:48.967] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[30Sep2025 23:37:48.973] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[30Sep2025 23:37:49.026] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:37:49.045] [main/DEBUG] [mixin/]: Mixing MixinPlayerList from xaerohud.mixins.json into net.minecraft.server.players.PlayerList
+[30Sep2025 23:37:49.045] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinPlayerList from mod xaerominimap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:49.046] [main/DEBUG] [mixin/]: Mixing MixinPlayerList from xaeroworldmap.mixins.json into net.minecraft.server.players.PlayerList
+[30Sep2025 23:37:49.046] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinPlayerList from mod xaeroworldmap: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinPlayerList from mod xaerominimap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinPlayerList from mod xaerominimap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaerohud.mixins.json:MixinPlayerList from mod xaerominimap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinPlayerList from mod xaeroworldmap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinPlayerList from mod xaeroworldmap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[30Sep2025 23:37:49.048] [main/DEBUG] [mixin/]: xaeroworldmap.mixins.json:MixinPlayerList from mod xaeroworldmap->@Inject::onSendWorldInfo(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[30Sep2025 23:37:49.122] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
+[30Sep2025 23:37:49.122] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Sep2025 23:37:49.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Sep2025 23:37:49.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Sep2025 23:37:49.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:10120
+[30Sep2025 23:37:49.179] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[30Sep2025 23:37:49.187] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[30Sep2025 23:37:49.187] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[30Sep2025 23:37:49.187] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[30Sep2025 23:37:49.187] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[30Sep2025 23:37:49.194] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_647348584583119923576.so
+[30Sep2025 23:37:49.197] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[30Sep2025 23:37:49.197] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[30Sep2025 23:37:49.198] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[30Sep2025 23:37:49.199] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[30Sep2025 23:37:49.204] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[30Sep2025 23:37:49.208] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[30Sep2025 23:37:49.217] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[30Sep2025 23:37:49.242] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Sep2025 23:37:49.256] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 451 (auto-detected)
+[30Sep2025 23:37:49.257] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:15:5d:ff:fe:ec:5d:aa (auto-detected)
+[30Sep2025 23:37:49.266] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[30Sep2025 23:37:49.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Sep2025 23:37:49.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Sep2025 23:37:49.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Sep2025 23:37:49.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Sep2025 23:37:49.284] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[30Sep2025 23:37:49.285] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/jei-server.toml
+[30Sep2025 23:37:49.285] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/jei-server.toml for changes
+[30Sep2025 23:37:49.285] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[30Sep2025 23:37:49.285] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/neoforge-server.toml
+[30Sep2025 23:37:49.285] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file /home/zhongxiaoliang/czq_server/neoforge/config/neoforge-server.toml for changes
+[30Sep2025 23:37:49.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Sep2025 23:37:49.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Sep2025 23:37:50.118] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Sep2025 23:37:50.168] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Sep2025 23:37:50.264] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 596 ms
+[30Sep2025 23:37:50.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.981s)! For help, type "help"
+[30Sep2025 23:37:50.285] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 11 language files for en_us
+[30Sep2025 23:37:50.289] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[30Sep2025 23:38:50.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[30Sep2025 23:38:50.259] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:39:29.100] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[30Sep2025 23:39:29.101] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[30Sep2025 23:39:29.101] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[30Sep2025 23:39:29.101] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[30Sep2025 23:39:29.101] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[30Sep2025 23:39:36.734] [Netty Epoll Server IO #4/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6ff42eb4 into net.minecraft.network.Connection@52ee4289
+[30Sep2025 23:39:37.370] [Netty Epoll Server IO #4/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@7f49231f into net.minecraft.network.Connection@52ee4289
+[30Sep2025 23:39:37.573] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sakurazxl[/172.29.160.1:9119] logged in with entity id 22 at (1314.6614484234146, 72.5, 7271.300000011921)
+[30Sep2025 23:39:37.588] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1407 recipes of the following types: [crafting, campfire_cooking, smelting, blasting, stonecutting, smoking, smithing]
+[30Sep2025 23:39:37.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl joined the game
+[30Sep2025 23:40:44.666] [Netty Epoll Server IO #5/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@13acd533 into net.minecraft.network.Connection@1793539e
+[30Sep2025 23:40:45.332] [Netty Epoll Server IO #5/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@16f931fc into net.minecraft.network.Connection@1793539e
+[30Sep2025 23:40:45.447] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/172.29.160.87:60240] logged in with entity id 362 at (114.40326863232515, 63.0, 43.537096520264946)
+[30Sep2025 23:40:45.451] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1407 recipes of the following types: [crafting, campfire_cooking, smelting, blasting, stonecutting, smoking, smithing]
+[30Sep2025 23:40:45.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
+[30Sep2025 23:41:07.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> hello
+[30Sep2025 23:42:06.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[30Sep2025 23:42:06.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: hello<--[HERE]
+[30Sep2025 23:44:21.726] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:44:44.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[30Sep2025 23:45:04.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> dont sleep?
+[30Sep2025 23:45:13.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[30Sep2025 23:45:20.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 睡
+[30Sep2025 23:46:51.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1314.500000, 72.500000, 7271.500000]
+[30Sep2025 23:47:13.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[30Sep2025 23:47:18.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki drowned
+[30Sep2025 23:47:57.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1314.500000, 72.500000, 7271.500000]
+[30Sep2025 23:48:59.177] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:52:53.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[30Sep2025 23:53:34.833] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:55:14.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 213.500000, 24.500000, -136.500000]
+[30Sep2025 23:55:27.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1325.500000, 70.500000, 7272.500000]
+[30Sep2025 23:55:38.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[30Sep2025 23:58:06.828] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[30Sep2025 23:59:31.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> zuanshi
+[30Sep2025 23:59:40.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> tp here
+[01Oct2025 00:01:24.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[01Oct2025 00:02:40.264] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:07:13.659] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:07:36.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki has made the advancement [Stay Hydrated!]
+[01Oct2025 00:10:54.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 3.500000, 79.500000, 714.500000]
+[01Oct2025 00:11:09.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -391.500000, 64.500000, 477.500000]
+[01Oct2025 00:11:21.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -421.500000, 66.500000, 607.500000]
+[01Oct2025 00:11:31.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -307.500000, 63.500000, 695.500000]
+[01Oct2025 00:11:45.487] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:12:31.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 98.500000, 71.500000, 940.500000]
+[01Oct2025 00:12:36.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -5.500000, 63.500000, 981.500000]
+[01Oct2025 00:12:45.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -135.500000, 64.500000, 1113.500000]
+[01Oct2025 00:13:09.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -752.500000, 93.500000, 804.500000]
+[01Oct2025 00:13:20.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -604.500000, 90.500000, 872.500000]
+[01Oct2025 00:13:33.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -750.500000, 93.500000, 805.500000]
+[01Oct2025 00:13:49.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[01Oct2025 00:13:50.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -234.500000, 63.500000, 397.500000]
+[01Oct2025 00:13:57.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -91.500000, 63.500000, 312.500000]
+[01Oct2025 00:14:01.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[01Oct2025 00:14:13.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -129.500000, 63.500000, 238.500000]
+[01Oct2025 00:14:16.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 在干啥呢
+[01Oct2025 00:14:22.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[01Oct2025 00:15:03.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 308.500000, 63.500000, 150.500000]
+[01Oct2025 00:15:12.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -316.500000, 63.500000, 189.500000]
+[01Oct2025 00:15:20.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[01Oct2025 00:15:33.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 194.500000, 64.500000, 45.500000]
+[01Oct2025 00:16:19.247] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:20:01.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 308.500000, 63.500000, 150.500000]
+[01Oct2025 00:20:57.296] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:25:26.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 217.500000, 21.500000, 26.500000]
+[01Oct2025 00:25:34.807] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:26:29.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 284.500000, 22.500000, -53.500000]
+[01Oct2025 00:26:30.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 131.500000, 53.500000, -35.500000]
+[01Oct2025 00:27:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 336.500000, 41.500000, 16.500000]
+[01Oct2025 00:27:43.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 472.500000, 21.500000, 73.500000]
+[01Oct2025 00:28:57.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 625.500000, 22.500000, 68.500000]
+[01Oct2025 00:29:18.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 349.500000, 13.500000, 263.500000]
+[01Oct2025 00:30:20.051] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:30:22.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 281.500000, 8.500000, 269.500000]
+[01Oct2025 00:31:07.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 378.500000, 68.500000, 457.500000]
+[01Oct2025 00:31:33.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
+[01Oct2025 00:33:29.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 782.500000, 77.500000, -376.500000]
+[01Oct2025 00:34:45.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 188.500000, 64.500000, 31.500000]
+[01Oct2025 00:34:58.914] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:39:35.242] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:44:12.751] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:48:49.093] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:50:08.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 780.500000, 74.500000, -374.500000]
+[01Oct2025 00:50:26.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 184.500000, 63.500000, 31.500000]
+[01Oct2025 00:50:35.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[01Oct2025 00:50:59.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我去下界升级了
+[01Oct2025 00:51:11.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 从1到32
+[01Oct2025 00:51:15.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 厉害吧
+[01Oct2025 00:51:22.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> niu
+[01Oct2025 00:51:27.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 848.500000, 119.500000, -537.500000]
+[01Oct2025 00:53:17.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 860.500000, 120.500000, -576.500000]
+[01Oct2025 00:53:25.439] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:55:01.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 184.500000, 63.500000, 30.500000]
+[01Oct2025 00:55:39.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 308.500000, 63.500000, 150.500000]
+[01Oct2025 00:56:37.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 我养的幽魂呢？？
+[01Oct2025 00:56:39.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 272.500000, 44.500000, -98.500000]
+[01Oct2025 00:56:49.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我靠
+[01Oct2025 00:56:56.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你养的
+[01Oct2025 00:57:05.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我说幽魂咋上来了
+[01Oct2025 00:57:11.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 给我射死了
+[01Oct2025 00:57:19.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 哈哈重新养一只吧
+[01Oct2025 00:57:29.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 我养了几天才长大的、
+[01Oct2025 00:57:41.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> ee
+[01Oct2025 00:57:46.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> sorry啦
+[01Oct2025 00:57:56.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 给你整一套附魔书
+[01Oct2025 00:58:00.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 补偿你
+[01Oct2025 00:58:01.745] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 00:58:55.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 还有失水幽魂吗
+[01Oct2025 00:59:00.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 没有了
+[01Oct2025 00:59:16.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 怎么找
+[01Oct2025 00:59:33.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 在下界挖的吧
+[01Oct2025 00:59:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl has completed the challenge [Return to Sender]
+[01Oct2025 01:00:07.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 308.500000, 63.500000, 149.500000]
+[01Oct2025 01:00:39.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -58.500000, 93.500000, 358.500000]
+[01Oct2025 01:00:52.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -150.500000, 85.500000, 391.500000]
+[01Oct2025 01:01:15.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 12.500000, 92.500000, 415.500000]
+[01Oct2025 01:01:26.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 69.500000, 92.500000, 402.500000]
+[01Oct2025 01:02:27.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 29.500000, 95.500000, 486.500000]
+[01Oct2025 01:02:39.247] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:03:09.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -24.500000, 100.500000, 430.500000]
+[01Oct2025 01:03:24.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 35.500000, 58.500000, 17.500000]
+[01Oct2025 01:04:19.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 35.500000, 58.500000, 17.500000]
+[01Oct2025 01:04:34.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 197.500000, 64.500000, 38.500000]
+[01Oct2025 01:07:16.745] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:07:21.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl fell from a high place
+[01Oct2025 01:11:54.413] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:13:53.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was slain by Sakurazxl
+[01Oct2025 01:16:29.428] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:16:54.128] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sakurazxl lost connection: Disconnected
+[01Oct2025 01:16:54.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl left the game
+[01Oct2025 01:17:03.189] [Netty Epoll Server IO #8/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@5a95909d into net.minecraft.network.Connection@5eaa0f17
+[01Oct2025 01:17:03.437] [Netty Epoll Server IO #8/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6416d85b into net.minecraft.network.Connection@5eaa0f17
+[01Oct2025 01:17:03.511] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sakurazxl[/172.29.160.1:9847] logged in with entity id 34127 at (188.67809052507752, 64.0, 28.1569809667492)
+[01Oct2025 01:17:03.513] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1407 recipes of the following types: [crafting, campfire_cooking, smelting, blasting, stonecutting, smoking, smithing]
+[01Oct2025 01:17:03.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl joined the game
+[01Oct2025 01:17:29.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 84.500000, 68.500000, 14.500000]
+[01Oct2025 01:19:41.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你在干嘛
+[01Oct2025 01:20:56.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[01Oct2025 01:21:06.913] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:25:44.413] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:27:46.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 给i我玩下
+[01Oct2025 01:28:23.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 怎么上去
+[01Oct2025 01:28:36.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> SNOW
+[01Oct2025 01:30:09.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 太好玩了
+[01Oct2025 01:30:17.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> wwww
+[01Oct2025 01:30:18.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> HAHA
+[01Oct2025 01:30:21.898] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:31:17.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 飞起来
+[01Oct2025 01:32:23.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 怎么飞不了了
+[01Oct2025 01:32:46.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 它吃雪
+[01Oct2025 01:33:17.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 767.500000, 108.500000, -457.500000]
+[01Oct2025 01:33:41.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[01Oct2025 01:34:56.917] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:35:24.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> up
+[01Oct2025 01:35:28.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> take on
+[01Oct2025 01:35:52.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> come on
+[01Oct2025 01:36:29.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xialai
+[01Oct2025 01:36:33.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> woyaoshangqu1
+[01Oct2025 01:37:50.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 你看下面那个马
+[01Oct2025 01:38:12.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> F5'
+[01Oct2025 01:38:26.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> kanshangmian1
+[01Oct2025 01:39:34.584] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:40:38.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 你也搞一只
+[01Oct2025 01:44:17.363] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:44:54.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 笑死，我用火焰附加砍猪
+[01Oct2025 01:45:00.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 直接熟猪肉
+[01Oct2025 01:45:10.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 直接猪排
+[01Oct2025 01:46:08.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我还要去刷经验
+[01Oct2025 01:46:16.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 附魔用完了
+[01Oct2025 01:48:58.143] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:51:30.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 820.500000, -39.500000, 4255.500000]
+[01Oct2025 01:53:03.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 201.500000, -27.500000, 174.500000]
+[01Oct2025 01:53:35.629] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:53:40.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 204.500000, -29.500000, 172.500000]
+[01Oct2025 01:55:35.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 820.500000, -39.500000, 4255.500000]
+[01Oct2025 01:58:11.970] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 01:59:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 237.500000, 3.500000, 17.500000]
+[01Oct2025 02:00:51.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 194.500000, -8.500000, 136.500000]
+[01Oct2025 02:02:49.466] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:05:49.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 162.500000, 3.500000, 82.500000]
+[01Oct2025 02:06:10.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki drowned
+[01Oct2025 02:07:25.794] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:08:09.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[01Oct2025 02:08:09.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 154.500000, -0.500000, -14.500000]
+[01Oct2025 02:08:39.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 32.500000, -40.500000, 101.500000]
+[01Oct2025 02:10:11.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to Loki]
+[01Oct2025 02:10:25.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你有多少级？
+[01Oct2025 02:10:30.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 30
+[01Oct2025 02:12:03.291] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:12:16.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 我在找
+[01Oct2025 02:12:27.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 哪里有钟乳石
+[01Oct2025 02:12:40.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 442.500000, 8.500000, 663.500000]
+[01Oct2025 02:12:48.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to Sakurazxl]
+[01Oct2025 02:13:15.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 620.500000, -3.500000, 763.500000]
+[01Oct2025 02:14:04.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 472.500000, -40.500000, 678.500000]
+[01Oct2025 02:14:38.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 596.500000, -4.500000, 718.500000]
+[01Oct2025 02:15:09.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 460.500000, -42.500000, 678.500000]
+[01Oct2025 02:15:41.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
+[01Oct2025 02:16:40.801] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:16:51.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl has made the advancement [Under Lock and Key]
+[01Oct2025 02:18:43.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
+[01Oct2025 02:21:20.619] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sakurazxl lost connection: Timed out
+[01Oct2025 02:21:20.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl left the game
+[01Oct2025 02:21:20.666] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Oct2025 02:21:23.302] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:25:56.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 89.500000, 64.500000, 16.500000]
+[01Oct2025 02:26:01.233] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[01Oct2025 02:27:55.569] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
+[01Oct2025 02:27:55.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game

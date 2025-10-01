@@ -1,0 +1,87 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2025-09-23 08:31:05
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: Failed to initialize server
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:677) ~[server-1.21.8-20250717.133445-srg.jar%23150!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[server-1.21.8-20250717.133445-srg.jar%23150!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftServer from mod xaerominimap,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Linux (amd64) version 5.15.0-152-generic
+	Java Version: 21.0.8, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 93756192 bytes (89 MiB) / 226836480 bytes (216 MiB) up to 409534464 bytes (390 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) Platinum
+	Identifier: Intel64 Family 6 Model 85 Stepping 4
+	Microarchitecture: Skylake (Server)
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MiB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 2048.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MiB): 804.46
+	Virtual memory used (MiB): 971.84
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 30281.14, total: 39942.69
+	Space in storage for workdir (MiB): available: 30281.14, total: 39942.69
+	JVM Flags: 0 total; 
+	Server Running: true
+	Active Data Packs: vanilla, mod_data, mod/sodium, mod/iris, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/mousetweaks (incompatible), mod/stackrefill, mod/xaerominimap (incompatible), mod/collective, mod/neoforge, mod/jei (incompatible)
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/collective, mod/fabric_api_base, mod/fabric_renderer_api_v1, mod/iris, mod/jei (incompatible), mod/mousetweaks (incompatible), mod/neoforge, mod/sodium, mod/stackrefill, mod/xaerominimap (incompatible), mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 1740822705558702909
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 9.0
+	ModLauncher launch target: neoforgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-9.0.18.jar neoforgedevdistcleaner PLUGINSERVICE 
+		loader-9.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-9.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		loader-9.0.18.jar accesstransformer PLUGINSERVICE 
+		loader-9.0.18.jar mixin TRANSFORMATIONSERVICE 
+		loader-9.0.18.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@9.0
+		minecraft@9.0
+	Mod List: 
+		collective-1.21.8-8.4.jar                         |Collective                    |collective                    |8.4                 |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-7.0.0.jar                  |Fabric Renderer API (CaffeineM|fabric_renderer_api_v1        |7.0.0               |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		iris-neoforge-1.9.1+mc1.21.7.jar                  |Iris                          |iris                          |1.9.1+mc1.21.7      |Manifest: NOSIGNATURE
+		jei-1.21.8-neoforge-24.1.0.4.jar                  |Just Enough Items             |jei                           |24.1.0.4            |Manifest: NOSIGNATURE
+		server-1.21.8-20250717.133445-srg.jar             |Minecraft                     |minecraft                     |1.21.8              |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21.6-2.28.jar            |Mouse Tweaks                  |mousetweaks                   |2.28                |Manifest: NOSIGNATURE
+		neoforge-21.8.47-universal.jar                    |NeoForge                      |neoforge                      |21.8.47             |Manifest: NOSIGNATURE
+		sodium-neoforge-0.6.13+mc1.21.6.jar               |Sodium                        |sodium                        |0.6.13+mc1.21.6     |Manifest: NOSIGNATURE
+		stackrefill-1.21.8-4.9.jar                        |Stack Refill                  |stackrefill                   |4.9                 |Manifest: NOSIGNATURE
+		Xaeros_Minimap_25.2.11_NeoForge_1.21.8.jar        |Xaero's Minimap               |xaerominimap                  |25.2.11             |Manifest: NOSIGNATURE
+	Crash Report UUID: 01cd15b5-91ae-46f0-a6ff-fea322373308
+	FML: 9.0.18
+	NeoForge: 21.8.47

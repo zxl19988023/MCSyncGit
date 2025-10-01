@@ -1,0 +1,2 @@
+mcserver.zip filter=lfs diff=lfs merge=lfs -text
+libraries/net/minecraft/server/1.21.8/server-1.21.8.jar filter=lfs diff=lfs merge=lfs -text

@@ -1,28 +1,28 @@
-[14:11:59] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeserver, --fml.neoForgeVersion, 21.8.47, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoFormVersion, 20250717.133445]
-[14:11:59] [main/INFO]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
-[14:11:59] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.6.87.2-microsoft-standard-WSL2
-[14:11:52] [main/INFO]: ImmediateWindowProvider not loading because launch target is neoforgeserver
-[14:11:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/zhongxiaoliang/czq_server/neoforge/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2388!/ Service=ModLauncher Env=SERVER
-[14:11:53] [main/INFO]: Found mod file "server-1.21.8-20250717.133445-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.8.47:server]
-[14:11:53] [main/INFO]: Found mod file "neoforge-21.8.47-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.8.47/neoforge-21.8.47-universal.jar]], reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "collective-1.21.8-8.4.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "iris-neoforge-1.9.1+mc1.21.7.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "jei-1.21.8-neoforge-24.1.0.4.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "MouseTweaks-neoforge-mc1.21.6-2.28.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "sodium-neoforge-0.6.13+mc1.21.6.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "stackrefill-1.21.8-4.9.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "Xaeros_Minimap_25.2.12_NeoForge_1.21.8.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "XaerosWorldMap_1.39.14_NeoForge_1.21.8.jar" [locator: {mods folder locator at /home/zhongxiaoliang/czq_server/neoforge/mods}, reader: mod manifest]
-[14:11:53] [main/INFO]: Found 8 dependencies adding them to mods collection
-[14:11:53] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.8.47-universal.jar, locator: jarinjar, reader: mod manifest]
-[14:11:53] [main/INFO]: Found library file "antlr4-runtime-4.13.1.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
-[14:11:53] [main/INFO]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
-[14:11:53] [main/INFO]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.6-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.6.jar, locator: jarinjar, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "fabric-renderer-api-v1-7.0.0.jar" [parent: sodium-neoforge-0.6.13+mc1.21.6.jar, locator: jarinjar, reader: mod manifest]
-[14:11:53] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: fabric-renderer-api-v1-7.0.0.jar, locator: jarinjar, reader: mod manifest]
-[14:11:53] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.8.47.jar" [parent: neoforge-21.8.47-universal.jar, locator: jarinjar, reader: mod manifest]
-[14:11:53] [main/INFO]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
-[14:11:53] [main/INFO]: 
+[09:31:53] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeserver, --fml.neoForgeVersion, 21.8.47, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoFormVersion, 20250717.133445]
+[09:31:53] [main/INFO]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
+[09:31:53] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.6.87.2-microsoft-standard-WSL2
+[09:31:53] [main/INFO]: ImmediateWindowProvider not loading because launch target is neoforgeserver
+[09:31:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/opt/mcserver/MCSyncGit/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2388!/ Service=ModLauncher Env=SERVER
+[09:31:53] [main/INFO]: Found mod file "server-1.21.8-20250717.133445-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.8.47:server]
+[09:31:53] [main/INFO]: Found mod file "neoforge-21.8.47-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.8.47/neoforge-21.8.47-universal.jar]], reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "collective-1.21.8-8.4.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "iris-neoforge-1.9.1+mc1.21.7.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "jei-1.21.8-neoforge-24.1.0.4.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "MouseTweaks-neoforge-mc1.21.6-2.28.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "sodium-neoforge-0.6.13+mc1.21.6.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "stackrefill-1.21.8-4.9.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "Xaeros_Minimap_25.2.12_NeoForge_1.21.8.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:53] [main/INFO]: Found mod file "XaerosWorldMap_1.39.14_NeoForge_1.21.8.jar" [locator: {mods folder locator at /opt/mcserver/MCSyncGit/mods}, reader: mod manifest]
+[09:31:54] [main/INFO]: Found 8 dependencies adding them to mods collection
+[09:31:54] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.8.47-universal.jar, locator: jarinjar, reader: mod manifest]
+[09:31:54] [main/INFO]: Found library file "antlr4-runtime-4.13.1.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
+[09:31:54] [main/INFO]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
+[09:31:54] [main/INFO]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.6-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.6.jar, locator: jarinjar, reader: mod manifest]
+[09:31:54] [main/INFO]: Found mod file "fabric-renderer-api-v1-7.0.0.jar" [parent: sodium-neoforge-0.6.13+mc1.21.6.jar, locator: jarinjar, reader: mod manifest]
+[09:31:54] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: fabric-renderer-api-v1-7.0.0.jar, locator: jarinjar, reader: mod manifest]
+[09:31:54] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.8.47.jar" [parent: neoforge-21.8.47-universal.jar, locator: jarinjar, reader: mod manifest]
+[09:31:54] [main/INFO]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.9.1+mc1.21.7.jar, locator: jarinjar]
+[09:31:54] [main/INFO]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -38,218 +38,255 @@
 		Stack Refill 4.9 (stackrefill)
 		Xaero's Minimap 25.2.12 (xaerominimap)
 		Xaero's World Map 1.39.14 (xaeroworldmap)
-[14:11:53] [main/INFO]: Compatibility level set to JAVA_17
-[14:11:53] [main/INFO]: Compatibility level set to JAVA_21
-[14:11:53] [main/INFO]: Launching target 'neoforgeserver' with arguments []
-[01Oct2025 14:11:54.198] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[01Oct2025 14:11:54.205] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.206] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.207] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.207] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.208] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.215] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.217] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:54.219] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Oct2025 14:11:55.187] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[01Oct2025 14:11:58.898] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.4.
-[01Oct2025 14:11:58.909] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.47, for MC 1.21.8
-[01Oct2025 14:11:59.217] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[01Oct2025 14:11:59.217] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[01Oct2025 14:11:59.218] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[01Oct2025 14:11:59.218] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[01Oct2025 14:11:59.318] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01Oct2025 14:11:59.401] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zhongxiaoliang/czq_server/neoforge/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
-[01Oct2025 14:11:59.402] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zhongxiaoliang/czq_server/neoforge/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
-[01Oct2025 14:12:00.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
-[01Oct2025 14:12:00.819] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
-[01Oct2025 14:12:00.822] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[01Oct2025 14:12:00.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
-[01Oct2025 14:12:00.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Oct2025 14:12:00.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Oct2025 14:12:00.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Oct2025 14:12:01.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:10120
-[01Oct2025 14:12:01.084] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Oct2025 14:12:01.111] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Oct2025 14:12:01.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Oct2025 14:12:01.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Oct2025 14:12:01.112] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Oct2025 14:12:01.158] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Oct2025 14:12:01.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Oct2025 14:12:02.009] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Oct2025 14:12:02.062] [Worker-Main-13/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[01Oct2025 14:12:02.148] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 587 ms
-[01Oct2025 14:12:02.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.023s)! For help, type "help"
-[01Oct2025 14:12:02.173] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[01Oct2025 14:12:56.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[01Oct2025 14:14:46.109] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sakurazxl[/172.29.160.1:2735] logged in with entity id 39 at (97.63959295159857, 63.0, 38.1528863312715)
-[01Oct2025 14:14:46.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl joined the game
-[01Oct2025 14:18:49.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 820.500000, -39.500000, 4255.500000]
-[01Oct2025 14:26:17.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
-[01Oct2025 14:35:36.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 308.500000, 63.500000, 150.500000]
-[01Oct2025 14:37:58.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 358.500000, 44.500000, -209.500000]
-[01Oct2025 14:43:04.074] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/172.29.160.87:39160] logged in with entity id 6058 at (87.15136275208364, 64.5625, 14.283065551263993)
-[01Oct2025 14:43:04.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
-[01Oct2025 14:44:07.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to czq]
-[01Oct2025 14:46:04.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你差点放走了
-[01Oct2025 14:51:25.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你别
-[01Oct2025 14:51:30.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我来就行
-[01Oct2025 14:51:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我有火剑
-[01Oct2025 14:51:51.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> okok
-[01Oct2025 14:51:58.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 直接得牛排熟了
-[01Oct2025 14:52:59.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你有没有31级
-[01Oct2025 14:53:01.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> hh
-[01Oct2025 14:53:03.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 帮我付个魔
-[01Oct2025 14:53:11.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> mei
-[01Oct2025 14:53:23.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 308.500000, 63.500000, 150.500000]
-[01Oct2025 14:53:44.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 350.500000, 45.500000, -326.500000]
-[01Oct2025 14:54:45.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 164.500000, 46.500000, -2.500000]
-[01Oct2025 14:58:10.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Sakurazxl]
-[01Oct2025 14:58:21.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 回家
-[01Oct2025 14:58:46.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我把这些坐标分享给你
-[01Oct2025 14:58:52.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 保存下
-[01Oct2025 14:59:13.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:僵尸笼:僵尸:205:-30:173:8:false:0:Internal-overworld
-[01Oct2025 14:59:19.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:保护IV:保护:1314:72:7271:3:false:0:Internal-overworld
-[01Oct2025 14:59:21.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:深海探索+水下速崛:深海:1931:69:6668:8:false:0:Internal-overworld
-[01Oct2025 14:59:23.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:制箭师:制箭:1233:139:6082:8:false:0:Internal-overworld
-[01Oct2025 14:59:25.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:水下呼吸:水下:725:69:3809:8:false:0:Internal-overworld
-[01Oct2025 14:59:28.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:水下呼吸:水下:725:69:3809:8:false:0:Internal-overworld
-[01Oct2025 14:59:30.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:火焰附加:火焰:1386:70:7247:10:false:0:Internal-overworld
-[01Oct2025 14:59:36.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:荆棘:荆棘:1325:70:7272:0:false:0:Internal-overworld
-[01Oct2025 14:59:41.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:亡灵杀手V:亡灵:1324:64:7270:1:false:0:Internal-overworld
-[01Oct2025 14:59:45.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:耐久III:耐久:1361:70:7243:4:false:0:Internal-overworld
-[01Oct2025 14:59:49.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:制箭师:制箭:1216:140:6081:5:false:0:Internal-overworld
-[01Oct2025 14:59:52.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:横扫之刃:横扫:1232:139:6063:14:false:0:Internal-overworld
-[01Oct2025 14:59:56.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:制箭师:制箭:1869:69:6648:6:false:0:Internal-overworld
-[01Oct2025 14:59:59.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:力量V:力:1893:69:6675:2:false:0:Internal-overworld
-[01Oct2025 15:00:03.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:火矢:火矢:706:70:3788:2:false:0:Internal-overworld
-[01Oct2025 15:00:07.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:无限+海之眷顾:无限:711:69:3812:4:false:0:Internal-overworld
-[01Oct2025 15:00:09.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:击退:鸡腿:1318:68:7284:14:false:0:Internal-overworld
-[01Oct2025 15:00:20.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:锋利V:锋:1903:70:6674:8:false:0:Internal-overworld
-[01Oct2025 15:00:24.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:制箭师:制箭:1850:74:6648:12:false:0:Internal-overworld
-[01Oct2025 15:00:27.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:制箭师:制箭:1850:74:6648:12:false:0:Internal-overworld
-[01Oct2025 15:00:31.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:经验修补:经:302:63:4987:4:false:0:Internal-overworld
-[01Oct2025 15:00:30.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:远古城市:远古:397:-54:887:1:false:0:Internal-overworld
-[01Oct2025 15:00:41.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:地底世界:地:820:-40:4255:2:false:0:Internal-overworld
-[01Oct2025 15:00:46.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:沙漠村庄:沙:639:73:3435:7:false:0:Internal-overworld
-[01Oct2025 15:00:50.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:恶地:恶:754:6:1808:15:false:0:Internal-overworld
-[01Oct2025 15:01:11.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 这些坐标是刷的附魔书
-[01Oct2025 15:01:25.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 去村民那里换，用绿宝石
-[01Oct2025 15:01:50.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 绿宝石你要砍树，去制箭师坐标换
-[01Oct2025 15:02:03.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 一天一个制剑师最多换两组
-[01Oct2025 15:02:24.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 咋用啊。。不知道怎么传
-[01Oct2025 15:02:31.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 然后微信我给你发个链接，有最佳附魔顺序
-[01Oct2025 15:02:37.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你搞一套神装
-[01Oct2025 15:02:59.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 右键传送啊
-[01Oct2025 15:03:10.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 要去外面的世界才能传送
-[01Oct2025 15:04:27.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 这几天废老大劲
-[01Oct2025 15:04:39.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 就是去刷村民换好的附魔
-[01Oct2025 15:04:55.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 来
-[01Oct2025 15:05:03.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 给你看看我的附魔
-[01Oct2025 15:05:31.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 借你用下
-[01Oct2025 15:05:44.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 太牛了
-[01Oct2025 15:05:57.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 没经验就来挖下界石英
-[01Oct2025 15:06:05.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 升级嘎嘎快
-[01Oct2025 15:06:44.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl was slain by Zombified Piglin
-[01Oct2025 15:06:58.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 我的那套先给你穿着，我去洗个澡
-[01Oct2025 15:07:08.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Sakurazxl]
-[01Oct2025 15:07:27.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 怎么样
-[01Oct2025 15:07:46.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 刷了一两百级了
-[01Oct2025 15:08:03.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 牛 你自己再搞一套
-[01Oct2025 15:08:24.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你去下界挖合金矿
-[01Oct2025 15:08:31.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 那个更好
-[01Oct2025 15:08:59.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你现在这套全都有经验修复
-[01Oct2025 15:08:57.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 我弄个稿子
-[01Oct2025 15:09:09.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/172.29.160.87:57748] logged in with entity id 12062 at (177.0364042561639, 63.0, 33.60969347655566)
-[01Oct2025 15:09:09.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
-[01Oct2025 15:09:28.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 用我给你的稿子挖
-[01Oct2025 15:09:34.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 加了时运的
-[01Oct2025 15:09:42.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 你这没效率 没经验修补
-[01Oct2025 15:09:50.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> hello
-[01Oct2025 15:09:45.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 省着点用，没加经验修复
-[01Oct2025 15:10:01.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> 你付个魔
-[01Oct2025 15:11:11.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 怎么不打电话？
-[01Oct2025 15:13:14.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 308.500000, 63.500000, 149.500000]
-[01Oct2025 15:13:42.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 503.500000, 35.500000, 967.500000]
-[01Oct2025 15:17:50.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1364.500000, 76.500000, 7304.500000]
-[01Oct2025 15:17:58.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 572.500000, 33.500000, 866.500000]
-[01Oct2025 15:18:15.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 661.500000, 37.500000, 730.500000]
-[01Oct2025 15:18:29.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 668.500000, 40.500000, 585.500000]
-[01Oct2025 15:18:33.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 576.500000, 35.500000, 519.500000]
-[01Oct2025 15:18:39.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 430.500000, 37.500000, 567.500000]
-[01Oct2025 15:18:38.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 574.500000, 37.500000, 517.500000]
-[01Oct2025 15:20:51.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sakurazxl> xaero-waypoint:时运III:时运:1349:76:7255:5:false:0:Internal-overworld
-[01Oct2025 15:20:55.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> tt
-[01Oct2025 15:21:03.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1341.500000, 73.500000, 7265.500000]
-[01Oct2025 15:26:28.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
-[01Oct2025 15:27:00.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1359.500000, 81.500000, 7277.500000]
-[01Oct2025 15:27:56.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 90.500000, 64.500000, 14.500000]
-[01Oct2025 15:28:36.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
-[01Oct2025 15:28:46.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1359.500000, 81.500000, 7277.500000]
-[01Oct2025 15:29:27.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 493.500000, 14.500000, 541.500000]
-[01Oct2025 15:29:34.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 476.500000, 14.500000, 540.500000]
-[01Oct2025 15:30:25.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1445.500000, 72.500000, 7468.500000]
-[01Oct2025 15:30:37.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1532.500000, 84.500000, 7624.500000]
-[01Oct2025 15:30:41.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1623.500000, 91.500000, 7768.500000]
-[01Oct2025 15:30:47.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1669.500000, 77.500000, 7749.500000]
-[01Oct2025 15:31:00.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1836.500000, 108.500000, 7835.500000]
-[01Oct2025 15:31:15.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1731.500000, 129.500000, 7979.500000]
-[01Oct2025 15:31:23.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 1814.500000, 75.500000, 8139.500000]
-[01Oct2025 15:31:26.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 538.500000, 69.500000, 6894.500000]
-[01Oct2025 15:31:36.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sakurazxl: Teleported Sakurazxl to 583.500000, 106.500000, 6785.500000]
-[01Oct2025 15:34:12.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to -14.500000, 29.500000, 14.500000]
-[01Oct2025 15:34:18.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 326.500000, 34.500000, -3.500000]
-[01Oct2025 15:35:00.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 322.500000, 36.500000, -164.500000]
-[01Oct2025 15:39:25.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Loki]
-[01Oct2025 15:40:32.865] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sakurazxl lost connection: Disconnected
-[01Oct2025 15:40:32.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sakurazxl left the game
-[01Oct2025 15:41:07.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 205.500000, -29.500000, 173.500000]
-[01Oct2025 15:41:18.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
-[01Oct2025 15:41:54.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, -26.500000, 53.500000]
-[01Oct2025 15:41:55.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq has made the advancement [Minecraft: Trial(s) Edition]
-[01Oct2025 15:42:08.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
-[01Oct2025 15:43:27.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki has made the advancement [Wax Off]
-[01Oct2025 15:43:27.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki has made the advancement [Lighten Up]
-[01Oct2025 15:46:03.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 188.500000, 64.500000, 29.500000]
-[01Oct2025 15:46:47.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
-[01Oct2025 15:46:55.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 196.500000, 65.500000, 51.500000]
-[01Oct2025 15:47:00.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 322.500000, 63.500000, 68.500000]
-[01Oct2025 15:47:18.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 397.500000, -53.500000, 887.500000]
-[01Oct2025 15:47:30.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 754.500000, 6.500000, 1808.500000]
-[01Oct2025 15:47:56.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was slain by Zombie
-[01Oct2025 15:48:04.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 807.500000, -8.500000, 1793.500000]
-[01Oct2025 15:48:03.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 942.500000, -32.500000, 1827.500000]
-[01Oct2025 15:48:16.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1026.500000, -41.500000, 1881.500000]
-[01Oct2025 15:51:09.049] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1037, y=-46, z=1905} BlockPos{x=1039, y=-47, z=1905}
-[01Oct2025 15:51:10.957] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1037, y=-46, z=1903} BlockPos{x=1037, y=-47, z=1903}
-[01Oct2025 15:54:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 734.500000, -44.500000, 692.500000]
-[01Oct2025 15:54:56.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
-[01Oct2025 16:03:15.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 79.500000, 68.500000, 911.500000]
-[01Oct2025 16:03:21.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 864.500000, 88.500000, 1780.500000]
-[01Oct2025 16:03:29.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 876.500000, 149.500000, 1686.500000]
-[01Oct2025 16:03:40.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 814.500000, 122.500000, 1588.500000]
-[01Oct2025 16:03:44.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 684.500000, 145.500000, 1602.500000]
-[01Oct2025 16:08:37.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 896.500000, 111.500000, 1334.500000]
-[01Oct2025 16:08:56.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1002.500000, 125.500000, 1352.500000]
-[01Oct2025 16:08:55.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 973.500000, 126.500000, 1315.500000]
-[01Oct2025 16:09:11.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
-[01Oct2025 16:09:46.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
-[01Oct2025 16:13:07.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 384.500000, 30.500000, 669.500000]
-[01Oct2025 16:13:10.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
-[01Oct2025 16:13:34.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 143.500000, 64.500000, 1232.500000]
-[01Oct2025 16:13:38.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 8.500000, 79.500000, 1250.500000]
-[01Oct2025 16:13:44.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 484.500000, 67.500000, 1690.500000]
-[01Oct2025 16:13:51.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 185.500000, 63.500000, 1981.500000]
-[01Oct2025 16:15:15.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 415.500000, 63.500000, 3381.500000]
-[01Oct2025 16:15:22.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 314.500000, 64.500000, 3285.500000]
-[01Oct2025 16:15:30.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 337.500000, 64.500000, 2940.500000]
-[01Oct2025 16:15:48.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 244.500000, 67.500000, 2806.500000]
-[01Oct2025 16:16:14.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 171.500000, 63.500000, 2916.500000]
-[01Oct2025 16:16:15.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to -87.500000, -44.500000, 211.500000]
-[01Oct2025 16:16:21.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 189.500000, 63.500000, 2933.500000]
-[01Oct2025 16:17:38.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 754.500000, 6.500000, 1808.500000]
-[01Oct2025 16:17:44.346] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
-[01Oct2025 16:17:44.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
-[01Oct2025 16:17:50.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
-[01Oct2025 16:17:51.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
-[01Oct2025 16:17:51.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game
-[01Oct2025 16:18:53.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[09:31:54] [main/INFO]: Compatibility level set to JAVA_17
+[09:31:54] [main/INFO]: Compatibility level set to JAVA_21
+[09:31:54] [main/INFO]: Launching target 'neoforgeserver' with arguments []
+[02Oct2025 09:31:54.655] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[02Oct2025 09:31:54.661] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.663] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.664] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.666] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.667] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.675] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerohud.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.677] [main/WARN] [mixin/]: Reference map 'xaerominimap.refmap.json' for xaerominimap.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:54.680] [main/WARN] [mixin/]: Reference map 'xaeroworldmap.refmap.json' for xaeroworldmap.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Oct2025 09:31:55.504] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02Oct2025 09:31:59.487] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.4.
+[02Oct2025 09:31:59.498] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.47, for MC 1.21.8
+[02Oct2025 09:31:59.777] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02Oct2025 09:31:59.777] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[02Oct2025 09:31:59.778] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[02Oct2025 09:31:59.779] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02Oct2025 09:31:59.859] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02Oct2025 09:31:59.935] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/opt/mcserver/MCSyncGit/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/assets/.mcassetsroot' uses unexpected schema
+[02Oct2025 09:31:59.936] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/opt/mcserver/MCSyncGit/libraries/net/minecraft/server/1.21.8-20250717.133445/server-1.21.8-20250717.133445-srg.jar%23151!/data/.mcassetsroot' uses unexpected schema
+[02Oct2025 09:32:01.174] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[02Oct2025 09:32:01.189] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[02Oct2025 09:32:01.191] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[02Oct2025 09:32:01.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
+[02Oct2025 09:32:01.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Oct2025 09:32:01.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Oct2025 09:32:01.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Oct2025 09:32:01.702] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:10120
+[02Oct2025 09:32:01.747] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Oct2025 09:32:01.774] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Oct2025 09:32:01.774] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Oct2025 09:32:01.775] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Oct2025 09:32:01.775] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Oct2025 09:32:01.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Oct2025 09:32:02.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Oct2025 09:32:02.636] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Oct2025 09:32:02.710] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 509 ms
+[02Oct2025 09:32:02.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.921s)! For help, type "help"
+[02Oct2025 09:32:02.741] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[02Oct2025 09:33:02.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[02Oct2025 09:33:57.266] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:60234] logged in with entity id 18 at (116.7556439177672, 194.0, -1.9832500766858165)
+[02Oct2025 09:33:57.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 10:07:03.452] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 10:07:03.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 10:08:03.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[02Oct2025 10:09:16.467] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:50968] logged in with entity id 542 at (117.60183988811595, 194.0, -1.7408422578190013)
+[02Oct2025 10:09:16.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 10:11:11.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 10:13:10.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 302.500000, 63.500000, 4987.500000]
+[02Oct2025 10:13:43.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1233.500000, 139.500000, 6082.500000]
+[02Oct2025 10:14:10.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1232.500000, 139.500000, 6063.500000]
+[02Oct2025 10:14:32.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 10:15:13.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 10:19:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 10:20:11.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 10:27:17.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 10:27:38.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 10:29:31.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 10:30:15.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 11:49:48.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 11:49:48.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 11:50:02.480] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:34022] logged in with entity id 7711 at (116.87739450768034, 194.0, -1.542554024078446)
+[02Oct2025 11:50:02.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 13:23:13.351] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 13:23:13.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 13:24:13.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[02Oct2025 13:48:12.736] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:59234] logged in with entity id 10324 at (117.4452911338963, 194.0, -2.097330042189665)
+[02Oct2025 13:48:12.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 14:04:44.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 14:05:35.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 14:05:46.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 14:08:06.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 14:08:18.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 14:13:00.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 14:14:46.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq was slain by Zombie Villager
+[02Oct2025 14:16:17.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 14:23:14.553] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 14:23:14.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 14:24:14.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[02Oct2025 14:25:49.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:40590] logged in with entity id 12611 at (115.96596530571368, 193.5, -2.254818481145786)
+[02Oct2025 14:25:49.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 15:28:08.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 15:28:25.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to -997.500000, 63.500000, 446.500000]
+[02Oct2025 15:29:31.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 15:33:46.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 16:37:45.857] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/127.0.0.1:32782] logged in with entity id 17338 at (92.40664996272507, 63.0, 25.556949740671495)
+[02Oct2025 16:37:45.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
+[02Oct2025 16:38:12.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 我来了
+[02Oct2025 16:38:28.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 16:38:54.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was killed while trying to hurt czq
+[02Oct2025 16:40:36.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 16:46:10.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was impaled by Drowned
+[02Oct2025 16:48:20.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 1351.500000, 73.500000, 7267.500000]
+[02Oct2025 16:50:11.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 1373.500000, 71.500000, 7233.500000]
+[02Oct2025 17:01:34.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 1405.500000, 69.500000, 7219.500000]
+[02Oct2025 17:01:44.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was blown up by Creeper
+[02Oct2025 17:02:26.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 17:12:31.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 93.500000, 65.500000, 16.500000]
+[02Oct2025 17:17:25.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 17:21:02.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 91.500000, 64.500000, 14.500000]
+[02Oct2025 17:23:37.200] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
+[02Oct2025 17:23:37.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game
+[02Oct2025 18:06:32.902] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/127.0.0.1:36832] logged in with entity id 24876 at (101.0956907261247, 68.5, 15.682726106439565)
+[02Oct2025 18:06:32.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
+[02Oct2025 18:07:46.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
+[02Oct2025 18:07:46.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game
+[02Oct2025 18:14:33.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 18:14:49.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 341.500000, 63.500000, 76.500000]
+[02Oct2025 18:15:25.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 18:23:53.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 18:29:06.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 19:51:30.582] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/127.0.0.1:56748] logged in with entity id 29473 at (208.43933873547965, 62.0, 12.699999988079071)
+[02Oct2025 19:51:30.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
+[02Oct2025 19:58:14.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 19:58:59.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 19:59:57.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -3.500000]
+[02Oct2025 20:01:00.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:01:07.651] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 20:01:07.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 20:01:17.705] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:44166] logged in with entity id 31119 at (114.87330887985988, 193.5, -1.7691456376777757)
+[02Oct2025 20:01:17.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 20:02:25.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Loki]
+[02Oct2025 20:02:55.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:04:20.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 178.500000, 63.500000, 20.500000]
+[02Oct2025 20:04:40.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -3.500000]
+[02Oct2025 20:05:13.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:06:00.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was slain by Zombie
+[02Oct2025 20:07:43.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:08:34.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:08:47.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 171.500000, 64.500000, 15.500000]
+[02Oct2025 20:09:23.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:11:35.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 216.000000, -4.500000]
+[02Oct2025 20:12:37.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -4.500000]
+[02Oct2025 20:12:53.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -3.500000]
+[02Oct2025 20:13:29.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:14:06.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 97.500000, 55.500000, 24.500000]
+[02Oct2025 20:14:19.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 205.500000, -29.500000, 173.500000]
+[02Oct2025 20:14:50.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 67.500000, -17.500000, 54.500000]
+[02Oct2025 20:14:53.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 112.500000, -3.500000, 36.500000]
+[02Oct2025 20:15:19.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
+[02Oct2025 20:15:32.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:16:08.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq was shot by Bogged
+[02Oct2025 20:16:26.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 105.500000, 74.500000, 97.500000]
+[02Oct2025 20:17:08.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 106.500000, 73.500000, 101.500000]
+[02Oct2025 20:17:25.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 150.500000, 77.500000, 122.500000]
+[02Oct2025 20:17:52.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 69.500000, 113.500000]
+[02Oct2025 20:18:03.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 132.500000, 64.500000, 115.500000]
+[02Oct2025 20:18:04.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 113.500000, -14.500000, 42.500000]
+[02Oct2025 20:18:06.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq was blown up by Creeper
+[02Oct2025 20:18:14.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 129.500000, -13.500000, 62.500000]
+[02Oct2025 20:18:20.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki was shot by Skeleton
+[02Oct2025 20:18:44.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 162.500000, 41.500000, 40.500000]
+[02Oct2025 20:19:04.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:20:02.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 178.500000, 64.500000, 47.500000]
+[02Oct2025 20:20:45.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -4.500000]
+[02Oct2025 20:20:51.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 113.500000, 215.000000, -3.500000]
+[02Oct2025 20:21:09.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:27:39.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 20:28:09.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 20:29:45.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:30:05.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:38:08.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 387.500000, 65.500000, 247.500000]
+[02Oct2025 20:38:19.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 391.500000, 111.500000, 722.500000]
+[02Oct2025 20:41:07.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:41:17.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:42:10.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 373.500000, 105.500000, 742.500000]
+[02Oct2025 20:44:03.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 94.500000, 63.500000, 26.500000]
+[02Oct2025 20:53:19.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 20:59:32.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Loki]
+[02Oct2025 20:59:50.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 328.500000, 102.500000, 766.500000]
+[02Oct2025 21:25:44.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:26:22.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 331.500000, 93.500000, 724.500000]
+[02Oct2025 21:26:51.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to czq]
+[02Oct2025 21:28:46.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 188.500000, 64.500000, 33.500000]
+[02Oct2025 21:32:08.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 177.500000, 63.500000, 35.500000]
+[02Oct2025 21:32:55.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 105.500000, 63.500000, 75.500000]
+[02Oct2025 21:33:10.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 179.500000, 63.500000, 36.500000]
+[02Oct2025 21:36:19.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 120.500000, -23.500000, 175.500000]
+[02Oct2025 21:36:56.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:37:48.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:39:51.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 197.500000, 16.500000, 17.500000]
+[02Oct2025 21:40:28.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:41:44.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 201.500000, 9.500000, -43.500000]
+[02Oct2025 21:43:54.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 165.500000, 64.500000, 15.500000]
+[02Oct2025 21:44:05.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 103.500000, 63.500000, 74.500000]
+[02Oct2025 21:44:12.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 87.500000, 68.500000, 17.500000]
+[02Oct2025 21:47:29.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 91.500000, 64.500000, 17.500000]
+[02Oct2025 21:47:38.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:48:14.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 172.500000, 64.500000, 45.500000]
+[02Oct2025 21:48:50.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 102.500000, 63.500000, 76.500000]
+[02Oct2025 21:49:10.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to Loki]
+[02Oct2025 21:49:29.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 170.500000, 64.500000, 16.500000]
+[02Oct2025 21:50:01.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:50:22.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 302.500000, 63.500000, 4987.500000]
+[02Oct2025 21:50:38.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1233.500000, 139.500000, 6082.500000]
+[02Oct2025 21:51:11.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1349.500000, 76.500000, 7255.500000]
+[02Oct2025 21:51:21.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 1319.500000, 72.500000, 7246.500000]
+[02Oct2025 21:52:22.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:54:03.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 302.500000, 63.500000, 4987.500000]
+[02Oct2025 21:54:14.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:56:00.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 99.500000, 63.500000, 75.500000]
+[02Oct2025 21:56:12.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:56:23.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 176.500000, 63.500000, 34.500000]
+[02Oct2025 21:56:39.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 106.500000, 66.500000, 76.500000]
+[02Oct2025 21:56:49.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 302.500000, 63.500000, 4987.500000]
+[02Oct2025 21:57:03.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 21:57:39.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 302.500000, 63.500000, 4987.500000]
+[02Oct2025 21:58:35.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 90.500000, 64.500000, 14.500000]
+[02Oct2025 22:02:13.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 107.500000, 63.500000, 69.500000]
+[02Oct2025 22:03:16.552] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 22:03:16.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 22:04:39.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 91.500000, 64.500000, 16.500000]
+[02Oct2025 22:04:57.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 118.500000, 63.500000, 74.500000]
+[02Oct2025 22:10:27.234] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:37758] logged in with entity id 66665 at (99.01856873846918, 63.0, 23.171671022533445)
+[02Oct2025 22:10:27.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 22:12:42.801] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 22:12:42.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 22:18:04.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 181.500000, 63.500000, 20.500000]
+[02Oct2025 22:29:41.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Loki: Teleported Loki to 90.500000, 64.500000, 15.500000]
+[02Oct2025 22:30:01.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki has made the advancement [Crafting a New Look]
+[02Oct2025 22:48:36.821] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:54374] logged in with entity id 72542 at (89.24712018447147, 64.0, 14.334501788009984)
+[02Oct2025 22:48:36.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 22:50:38.952] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
+[02Oct2025 22:50:38.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game
+[02Oct2025 22:50:38.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 22:50:38.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 22:50:39.982] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: czq[/127.0.0.1:41044] logged in with entity id 72949 at (102.41073149754547, 64.0, 48.667395995560554)
+[02Oct2025 22:50:39.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq joined the game
+[02Oct2025 22:50:40.064] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Loki[/127.0.0.1:41042] logged in with entity id 73117 at (126.38485724235875, 63.0, 97.12159365142578)
+[02Oct2025 22:50:40.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki joined the game
+[02Oct2025 22:56:24.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 我不服务器。。
+[02Oct2025 22:56:34.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <czq> 不关 。
+[02Oct2025 22:56:34.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> en?
+[02Oct2025 22:56:39.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [czq: Teleported czq to 114.500000, 193.500000, -2.500000]
+[02Oct2025 22:56:47.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 关吧
+[02Oct2025 22:56:54.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Loki> 我下了
+[02Oct2025 22:56:56.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Loki lost connection: Disconnected
+[02Oct2025 22:56:56.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Loki left the game
+[02Oct2025 22:57:03.250] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: czq lost connection: Disconnected
+[02Oct2025 22:57:03.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: czq left the game
+[02Oct2025 22:57:32.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Oct2025 22:57:32.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Oct2025 22:57:32.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Oct2025 22:57:32.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Oct2025 22:57:32.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Oct2025 22:57:32.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Oct2025 22:57:32.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Oct2025 22:57:32.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Oct2025 22:57:32.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Oct2025 22:57:32.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
